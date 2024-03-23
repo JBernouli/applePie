@@ -13,6 +13,7 @@
 		807DF7372B94325600A9CE68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807DF7352B94325600A9CE68 /* Main.storyboard */; };
 		807DF7392B94325700A9CE68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807DF7382B94325700A9CE68 /* Assets.xcassets */; };
 		807DF73C2B94325700A9CE68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807DF73A2B94325700A9CE68 /* LaunchScreen.storyboard */; };
+		807DF7442B94FF3800A9CE68 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807DF7432B94FF3800A9CE68 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		807DF7382B94325700A9CE68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		807DF73B2B94325700A9CE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		807DF73D2B94325700A9CE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807DF7432B94FF3800A9CE68 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		807DF72E2B94325600A9CE68 /* ApplePie */ = {
 			isa = PBXGroup;
 			children = (
+				807DF7432B94FF3800A9CE68 /* Game.swift */,
 				807DF72F2B94325600A9CE68 /* AppDelegate.swift */,
 				807DF7312B94325600A9CE68 /* SceneDelegate.swift */,
 				807DF7332B94325600A9CE68 /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				807DF7342B94325600A9CE68 /* ViewController.swift in Sources */,
 				807DF7302B94325600A9CE68 /* AppDelegate.swift in Sources */,
 				807DF7322B94325600A9CE68 /* SceneDelegate.swift in Sources */,
+				807DF7442B94FF3800A9CE68 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,9 +310,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jahiz.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -333,9 +341,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jahiz.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
